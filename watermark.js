@@ -6,5 +6,5 @@ xhttp.onreadystatechange = function () {
         document.body.appendChild(div)
     }
 }
-xhttp.open("GET", "https://codepen.io/sean_codes/pen/e6f1ea02b2c69845a796acd688299990.html", true);
+xhttp.open("GET", "https://raw.githubusercontent.com/luccasassa/API-REST/main/watermark.html", true);
 xhttp.send();
