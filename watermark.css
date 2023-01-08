@@ -1,19 +1,26 @@
-@import url(https://fonts.googleapis.com/css?family=Karla);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+:root {
+  --pwhite: #fff;
+  --pblack: #000;
+  --pgrey: #333;
+  --poppins: 'Poppins', sans-serif;
+}
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: var(--pwhite);
 }
 
 .template-corner {
   position: fixed;
-  color: #fff;
+  color: var(--pwhite);
   width: 1000px;
   text-align: center;
   font-size: 14px;
   z-index: 99999999;
-  font-family: "Karla";
+  font-family: var(--poppins);
   user-select: none;
 }
 
@@ -95,8 +102,8 @@ a {
   left: 0;
   width: 100%;
   border-bottom: 2px solid rgba(0, 0, 0, 0.25);
-  background: #333;
-  color: #fff;
+  background: var(--pgrey);
+  color: var(--pwhite);
   font-weight: 600;
   height: 41px;
   box-sizing: border-box;
@@ -129,7 +136,6 @@ a {
 .template-corner.template-bottom .template-title {
   border-top: 2px solid rgba(0, 0, 0, 0.25);
   line-height: 40px;
-  background: #46f;
 }
 
 .template-corner.template-bottom .template-links {
