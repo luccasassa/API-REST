@@ -1,6 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Karla);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .template-corner {
   position: fixed;
   color: #fff;
@@ -9,6 +14,7 @@
   font-size: 14px;
   z-index: 99999999;
   font-family: "Karla";
+  user-select: none;
 }
 
 .template-corner.template-top.template-left {
@@ -38,7 +44,7 @@
 .template-corner .template-title {
   position: relative;
   z-index: 999999999999999;
-  background: #01b17b;
+  background: #866baf;
   height: 80px;
   line-height: 120px;
   width: 100%;
