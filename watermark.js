@@ -6,5 +6,5 @@ xhttp.onreadystatechange = function () {
         document.body.appendChild(div)
     }
 }
-xhttp.open("GET", "https://raw.githubusercontent.com/luccasassa/API-REST/main/watermark.html", true);
+xhttp.open("GET", "html", true);
 xhttp.send();
