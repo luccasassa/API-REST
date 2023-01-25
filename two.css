@@ -37,8 +37,8 @@ img {
   gap: 15px;
 
   background: rgba( 0, 0, 0, 0.25 );
-  backdrop-filter: blur( 20px );
-  -webkit-backdrop-filter: blur( 20px );
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
   border-radius: 40px;
 
   overflow: hidden;
