@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+
+:root {
+  --pwhite: #fff;
+  --pblack: #000;
+  --pgrey: #333;
+  --poppins: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--poppins);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--pwhite);
+}
+
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
+.luccasassa {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+
+  width: 50px;
+  padding: 5px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  background: rgba( 0, 0, 0, 0.25 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 40px;
+
+  overflow: hidden;
+  transition: width 500ms ease-in-out;
+  user-select: none;
+  cursor: pointer;
+}
+
+.luccasassa:hover {
+  width: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 200ms ease;
+}
+
+.linktree {
+  filter: invert(1);
+}
+
+.luccasassa:hover .item,
+.luccasassa:hover .or {
+  transition: 200ms ease;
+  opacity: 1;
+  display: flex;
+}
+
+.plus {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 200ms;
+}
+
+.luccasassa:hover .plus {
+  transform: scale(.85);
+}
